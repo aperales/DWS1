@@ -1,0 +1,31 @@
+/* ProjectFFC887 */
+
+body {
+	color: #B33600;
+	background-color: ;
+	opacity: 0.75;
+}
+h1 {
+	font-family: Georgia, Times, sans serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px #ffc887;
+	font-style: normal;
+	line-height:
+	text-align: ;
+}
+
+ol{
+	list-style-type: lower-roman;
+	list-style-position: inside;
+	
+}
+ul{
+	list-style-type: square;
+	
+}
+	
+h2, h3 {}	
+	
+
+}
