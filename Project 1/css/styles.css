@@ -1,9 +1,19 @@
 /* ProjectFFC887 */
+@font-face {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
 
 body {
 	color: #B33600;
 	background-color: ;
 	opacity: 0.75;
+	
+}
+p {
+	font-family: Open Sans Condensed;
+	font-size: 18px;
+	
+	
 }
 h1 {
 	font-family: Georgia, Times, sans serif;
@@ -11,9 +21,13 @@ h1 {
 	font-weight: bold;
 	text-shadow: 3px 3px 3px #ffc887;
 	font-style: normal;
-	line-height:
-	text-align: ;
+	line-height: 1px;
+	
 }
+
+	
+
+
 
 ol{
 	list-style-type: lower-roman;
@@ -25,7 +39,21 @@ ul{
 	
 }
 	
-h2, h3 {}	
-	
-
+h2, h3 {
+	font-family: 
+}	
+a:link{
+	color: #000000;
+	text-decoration: none;
 }
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #4A5A6B
+}
+a:active{
+	color: #FF7A3C;
+}
+
+
