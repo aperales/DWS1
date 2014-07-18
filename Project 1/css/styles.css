@@ -1,8 +1,14 @@
-/* ProjectFFC887 */
+/* Project2 */
+
+/*@ font face from google font*/
+
 @font-face {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+
+/*Body Layout */
 body {
+/*Back ground color and border*/
 	color: #B33600;
 	background-color:  ;
 	opacity: 0.75;
@@ -16,25 +22,24 @@ body {
 	border: 2px solid grey;
 	border-radius: 15px;
 	box-shadow: -2px 4px 8px 6px #EC9905;
-	page: black;
 }
-
+/* Paragraph font style and size*/
 p {
 	font-family: Open Sans Condensed;
 	font-size: 16px;
 	
 }
-	
+/*Gallery alignment*/	
 #Gall{
 	text-align: center;
 }
 
 
 
-
+/*Heading 1 font code*/ 
 
 h1 {
-	text-align: ;
+	
 	font-family: Georgia, Times, sans serif;
 	font-size: 36px;
 	font-weight: bold;
@@ -42,24 +47,7 @@ h1 {
 	font-style: normal;
 	line-height: 1px;
 }
-
-
-
-
-ol{
-	text-align: center;
-	list-style-type: lower-roman;
-	list-style-position: inside;
-	
-}
-
-ul{
-	
-	list-style-type: none;
-	
-	
-}
-	
+/*heading 2 fond and border and background color*/
 h2 {
 	text-align: left;
 	font-family: Open Sans Condensed;
@@ -68,8 +56,8 @@ h2 {
 	border: solid 2px #EC9905;
 	background-color: #FFC887;
 	border-radius: 10px;
-}	
-
+}
+/*h3 font */	
 h3 {
 	font-family: Open Sans Condensed;
 	font-size: 20px;
@@ -77,6 +65,21 @@ h3 {
 }
 
 
+/*List alignment/ font */
+ol{
+	text-align: center;
+	list-style-type: lower-roman;
+	list-style-position: inside;
+}
+
+ul{
+	list-style-type: none;
+}
+	
+
+
+
+/*Images/links parameters and color*/
 
 a img{
 	border: 2px solid black;
