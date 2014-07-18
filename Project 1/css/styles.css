@@ -2,52 +2,92 @@
 @font-face {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-
 body {
 	color: #B33600;
-	background-color: ;
+	background-color:  ;
 	opacity: 0.75;
-	
+	width: 960px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	box-shadow: -2px 4px 8px 6px #EC9905;
+	page: black;
 }
+
 p {
 	font-family: Open Sans Condensed;
-	font-size: 18px;
-	
+	font-size: 16px;
 	
 }
+	
+#Gall{
+	text-align: center;
+}
+
+
+
+
+
 h1 {
+	text-align: ;
 	font-family: Georgia, Times, sans serif;
 	font-size: 36px;
 	font-weight: bold;
 	text-shadow: 3px 3px 3px #ffc887;
 	font-style: normal;
 	line-height: 1px;
-	
 }
 
-	
 
 
 
 ol{
+	text-align: center;
 	list-style-type: lower-roman;
 	list-style-position: inside;
 	
 }
+
 ul{
-	list-style-type: square;
+	
+	list-style-type: none;
+	
 	
 }
 	
-h2, h3 {
-	font-family: 
+h2 {
+	text-align: left;
+	font-family: Open Sans Condensed;
+	font size: 40px;
+	font-weight: 900;
+	border: solid 2px #EC9905;
+	background-color: #FFC887;
+	border-radius: 10px;
 }	
+
+h3 {
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+a img{
+	border: 2px solid black;
+}
+
 a:link{
 	color: #000000;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:visited{
 	color: #4A5A6B
@@ -55,5 +95,19 @@ a:visited{
 a:active{
 	color: #FF7A3C;
 }
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
