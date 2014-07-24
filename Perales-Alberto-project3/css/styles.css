@@ -1,34 +1,50 @@
-/* Project2 */
+/* Project3 */
 
 /*@ font face from google font*/
 
 @font-face {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+/* .page class for border and background image*/
+.page{
+	background-color: #FFEFBC;
+	height: auto;
+	border: 2px solid grey;
+	border-radius: 15px;
+	box-shadow: -2px 4px 8px 6px #EC9905;
+	height: auto;
+	background-image: url("../images/hoop.png");
+	background-repeat: non-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 
 /*Body Layout */
 body {
 /*Back ground color and border*/
-	color: #B33600;
-	background-color:  ;
-	opacity: 0.75;
-	width: 960px;
+	background-image: url("../images/basketball.png");
+	background-repeat: repeat;
+	height: 300px;
+	background-position: center;
+	background-attachment: fixed;
+	color: black;
+	width: 90%;
 	margin-top: 15px;
 	margin-left: auto;
 	margin-bottom: 15px;
 	margin-right: auto;
 	text-align: center;
 	padding: 10px;
-	border: 2px solid grey;
-	border-radius: 15px;
-	box-shadow: -2px 4px 8px 6px #EC9905;
 }
+
 /* Paragraph font style and size*/
 p {
 	font-family: Open Sans Condensed;
-	font-size: 16px;
-	
-}
+	font-size: 1.000em;
+	font-weight: bold;
+}	
+
 /*Gallery alignment*/	
 #Gall{
 	text-align: center;
@@ -41,21 +57,32 @@ p {
 h1 {
 	
 	font-family: Georgia, Times, sans serif;
-	font-size: 36px;
+	font-size: 2.250em;
 	font-weight: bold;
 	text-shadow: 3px 3px 3px #ffc887;
 	font-style: normal;
 	line-height: 1px;
+	text-align: center;
+	padding: 33px;
 }
+
 /*heading 2 fond and border and background color*/
 h2 {
-	text-align: left;
+	text-align: center;
 	font-family: Open Sans Condensed;
-	font size: 40px;
+	font size: 2.500em;
 	font-weight: 900;
 	border: solid 2px #EC9905;
-	background-color: #FFC887;
+	background: linear-gradient(#FFEFBC,#FFD24C);
 	border-radius: 10px;
+}
+.p1{
+	float: left;
+	width: 300px;
+	margin:  5px 10px;
+
+
+
 }
 /*h3 font */	
 h3 {
@@ -77,8 +104,6 @@ ul{
 }
 	
 
-
-
 /*Images/links parameters and color*/
 
 a img{
@@ -99,13 +124,22 @@ a:active{
 	color: #FF7A3C;
 }
 
+
+#img1 {
+	float: left;
+	width: 450px;
+	margin: 10px;
+	}
 	
-	
+#img2{
+	float: left; 
+	width: 450px;
+	margin: 10px;
 
-
-
-
-
+}
+#resource{
+	clear: both;
+}
 
 
 
