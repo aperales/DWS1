@@ -1,10 +1,6 @@
 /* Project3 */
 
-/*@ font face from google font*/
 
-@font-face {
-	font-family: 'Open Sans Condensed', sans-serif;
-}
 /* .page class for border and background image*/
 .page{
 	background-color: #FFEFBC;
@@ -22,7 +18,7 @@
 
 /*Body Layout */
 body {
-/*Back ground color and border*/
+/*Back ground color and border with full page backgound image added*/ 
 	background-image: url("../images/basketball.png");
 	background-repeat: repeat;
 	height: 300px;
@@ -80,9 +76,6 @@ h2 {
 	float: left;
 	width: 300px;
 	margin:  5px 10px;
-
-
-
 }
 /*h3 font */	
 h3 {
@@ -90,26 +83,20 @@ h3 {
 	font-size: 20px;
 	font-weight: bold;
 }
-
-
 /*List alignment/ font */
 ol{
 	text-align: center;
 	list-style-type: lower-roman;
 	list-style-position: inside;
 }
-
 ul{
 	list-style-type: none;
 }
-	
-
 /*Images/links parameters and color*/
 
 a img{
 	border: 2px solid black;
 }
-
 a:link{
 	color: #000000;
 	text-decoration: underline;
@@ -123,20 +110,18 @@ a:visited{
 a:active{
 	color: #FF7A3C;
 }
-
-
+/*ids for gallery column/float use*/
 #img1 {
 	float: left;
 	width: 450px;
 	margin: 10px;
-	}
-	
+}
 #img2{
 	float: left; 
 	width: 450px;
 	margin: 10px;
-
 }
+/*id for resource clear form column float*/
 #resource{
 	clear: both;
 }
