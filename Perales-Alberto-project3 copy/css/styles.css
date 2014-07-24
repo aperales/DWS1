@@ -1,0 +1,116 @@
+/* Project2 */
+
+/*@ font face from google font*/
+
+@font-face {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*Body Layout */
+body {
+/*Back ground color and border*/
+	color: #B33600;
+	background-color:  ;
+	opacity: 0.75;
+	width: 960px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	box-shadow: -2px 4px 8px 6px #EC9905;
+}
+/* Paragraph font style and size*/
+p {
+	font-family: Open Sans Condensed;
+	font-size: 16px;
+	
+}
+/*Gallery alignment*/	
+#Gall{
+	text-align: center;
+}
+
+
+
+/*Heading 1 font code*/ 
+
+h1 {
+	
+	font-family: Georgia, Times, sans serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px #ffc887;
+	font-style: normal;
+	line-height: 1px;
+}
+/*heading 2 fond and border and background color*/
+h2 {
+	text-align: left;
+	font-family: Open Sans Condensed;
+	font size: 40px;
+	font-weight: 900;
+	border: solid 2px #EC9905;
+	background-color: #FFC887;
+	border-radius: 10px;
+}
+/*h3 font */	
+h3 {
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/*List alignment/ font */
+ol{
+	text-align: center;
+	list-style-type: lower-roman;
+	list-style-position: inside;
+}
+
+ul{
+	list-style-type: none;
+}
+	
+
+
+
+/*Images/links parameters and color*/
+
+a img{
+	border: 2px solid black;
+}
+
+a:link{
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	color: #4A5A6B
+}
+a:active{
+	color: #FF7A3C;
+}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
