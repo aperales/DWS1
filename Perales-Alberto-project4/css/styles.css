@@ -127,10 +127,10 @@ a:active{
 }
 /*id for resource clear form column float*/
 
-footer{
+footer{/*footer style*/
 	clear: both;
 }
-table{
+table{/*table style*/
 	border-spacing: 0;
 	width: 400px;
 	border-collapse: separate;
@@ -139,15 +139,15 @@ table{
 	border-color: #000;
 	margin: auto;
 }
-th{
+th{/*table header style*/
 	text-align: left;
-	font-size: 120%
+	font-size: 120%;
 	border-top: 5px solid #000;
 	border-bottom: 2px solid #000;
 	border-right: 2px solid #000;
 	text-shadow: 2px 2px 2px #fff;
 }
-tr{
+tr{/*table cells style*/
 	text-align: left;
 	font-size: 110%;
 	background-color: #ff530d;
@@ -158,14 +158,14 @@ tr{
 	
 	
 }
-tr.even{
+tr.even{/*zebra style for even rows*/
 	background-color: #ff9a16;
 }
 
-tr:hover{
+tr:hover{/*hover effect for table*/
 	background: #fff;
 }
-fieldset{
+fieldset{/*fieldset style for form*/
 	width: 800px;
 	margin: auto;
 	margin-bottom: 20px;
@@ -175,24 +175,24 @@ fieldset{
 	border-radius: 5px;
 	
 }
-legend{
+legend{/*italize text for legend*/
 	font-style: italic;
 }
 
-input[type="submit"]{
+input[type="submit"]{/*input button style*/
 color: #ff530d;
 text-shadow: 0px 1px 1px #ffffff;
 border-bottom: 2px solid #b2b2b2;
 background-color: #919191;
 background: -webkit-gradient(linear, left top, left bottom, from(#919191), to(#fff));
 }
-input:hover[type="submit"]{
+input:hover[type="submit"]{/*hover button style*/
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#919191));
 }
 input:focus[type="text"]{
 	background:  #EEFF0D;
 }
-.search{
+.search{/*search bar top of page style*/
 	width: 100px;
 	border: none;
 	background: none;
